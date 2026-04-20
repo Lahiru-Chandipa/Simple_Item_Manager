@@ -18,6 +18,7 @@ function App() {
   return (
   <div style={{ maxWidth: '700px', margin: '2rem auto', fontFamily: 'sans-serif' }}>
     <h1>Item Manager</h1>
+    <p>Welcome to the Item Manager!</p>
     <ItemForm onItemAdded={fetchItems} />
     <ItemList items={items} onRefresh={fetchItems} />
   </div>
